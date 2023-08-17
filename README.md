@@ -4,9 +4,9 @@ Sitio Web para crear tareas
 
 ### Acceder a la página
 
-El sitio se encuentra desplegado en [Netlifly](https://www.netlify.com/)
+El sitio se encuentra desplegado en GitHub Pages.
 
-Y puede ser accedido en el siguiente enlace: [Lista de Tareas]()
+Y puede ser accedido en el siguiente enlace: [Lista de Tareas](https://juanjo21-01.github.io/front-tareas/)
 
 ### Desarrollado con:
 
