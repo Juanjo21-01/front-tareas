@@ -10,7 +10,7 @@ const Tasks = () => {
         <TaskForm />
 
         {/* Lista de tareas */}
-        <TaskList   />
+        <TaskList />
       </TaskProvider>
     </>
   );

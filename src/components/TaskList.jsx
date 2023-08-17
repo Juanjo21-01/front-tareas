@@ -8,16 +8,21 @@ const TaskList = () => {
   const { tasks } = useContext(TaskContext);
 
   // Si no hay tareas, mostramos un mensaje
-  if (tasks.length === 0) return <h2>No hay tareas</h2>;
+  if (tasks.length === 0)
+    return (
+      <h2 className="text-8xl text-red-900 text-center ">No hay tareas</h2>
+    );
 
   return (
     <>
-      <h1> Lista de Tareas</h1>
+      <h1 className="text-5xl text-yellow-200 p-5"> Lista de Tareas</h1>
 
-      {/* Recorrer tareas */}
-      {tasks.map((task) => (
-        <TaskCard key={task.id} task={task} />
-      ))}
+      <section className="grid grid-cols-4 gap-2">
+        {/* Recorrer tareas */}
+        {tasks.map((task) => (
+          <TaskCard key={task.id} task={task} />
+        ))}
+      </section>
     </>
   );
 };
